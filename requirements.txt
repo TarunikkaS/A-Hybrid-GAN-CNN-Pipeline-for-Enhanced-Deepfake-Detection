@@ -1,0 +1,25 @@
+# Trust-Aware Deepfake Detector - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Streamlit UI
+streamlit>=1.28.0
+
+# Image/Video processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Numerical computation
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Model architectures (recommended for Xception)
+timm>=0.9.0  # Provides xception and legacy_xception models
+
+# Optional: GPU acceleration
+# torch==2.0.0+cu118  # For CUDA 11.8 - uncomment and adjust version as needed
