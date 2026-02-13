@@ -5,11 +5,11 @@ A state-of-the-art deepfake detection system leveraging GAN-refined XceptionNet 
 
 ---
 
-## 🎯 Project Overview
+ Project Overview
 
 This system detects AI-generated deepfakes using a novel GAN-augmented training approach combined with XceptionNet architecture. The model is trained on multiple manipulation techniques including Deepfakes, Face2Face, and FaceSwap, providing robust detection across various forgery methods.
 
-### Key Features
+ Key Features
 
 - **High-Performance Detection**: 95.10% accuracy with 98.5% ROC-AUC
 - **Multiple Interfaces**: 
@@ -70,7 +70,7 @@ Dataset/
 
 ---
 
-## 🚀 Installation
+ Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -159,7 +159,7 @@ python local_manipulation_attribution.py --input_dir path/to/images --output_dir
 
 ---
 
-## 🎨 GradCAM Visualization
+ GradCAM Visualization
 
 Generate facial attribution heatmaps to understand what regions the model focuses on:
 
@@ -213,7 +213,7 @@ python test_ffpp2_gradcam.py --model FFPP2.pt --dataset_dir Dataset/
 
 ---
 
-## 🧪 Training
+ Training
 
 ### GAN-Augmented Training Pipeline
 
@@ -322,58 +322,12 @@ Content-Type: multipart/form-data
 Body: image file
 ```
 
-Full API documentation: **http://localhost:8000/docs**
+
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Areas for improvement:
-- [ ] Video-based temporal analysis
-- [ ] Multi-frame detection
-- [ ] Additional manipulation types (StyleGAN, DALL-E, etc.)
-- [ ] Mobile deployment (ONNX/TFLite)
-- [ ] Real-time webcam detection
+
 
 ---
 
-## 📝 License
-
-This project is for educational and research purposes.
-
----
-
-## 🙏 Acknowledgments
-
-- **FaceForensics++**: Dataset and benchmark
-- **XceptionNet**: Base architecture (Chollet, 2017)
-- **PyTorch**: Deep learning framework
-- **Streamlit**: Web interface framework
-- **GradCAM**: Visualization technique (Selvaraju et al., 2017)
-
----
-
-## 📧 Contact
-
-For questions or collaboration:
-- Open an issue on GitHub
-- Email: [your-email@example.com]
-
----
-
-## 🔖 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@misc{deepfake-detector-2026,
-  title={GAN-Augmented XceptionNet for Deepfake Detection},
-  author={Your Name},
-  year={2026},
-  note={Achieves 95.10% accuracy on FaceForensics++}
-}
-```
-
----
-
-**Built with ❤️ for a safer digital future**
